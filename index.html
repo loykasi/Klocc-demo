@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body scroll="no">
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <div class="header-with-search">
+                    <div class="header_mobile-navbar show-on-mobile">
+                        <i class="header_mobile-navbar-icon fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="header_logo">
+                        <a href="index.html" class="header_logo-link">
+                            <h1 class="header_logo-text">Klocc</h1>
+                        </a>
+                    </div>
+                    <div class="header_search hide-on-mobile">
+                        <input type="text" class="header_search-input" placeholder="Tìm kiếm">
+                        <div class="header_search-btn">
+                            <i class="header_search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="header_search-lite show-on-mobile">
+                        <i class="header_search-lite-icon fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="header_cart">
+                        <i class="header_cart-icon fa-solid fa-cart-shopping"></i>
+                        <span class="header_cart-notice">0</span>
+
+                        <!-- No cart: header_cart-list--no-cart -->
+                        <div class="header_cart-list header_cart-list--no-cart">
+                            <div class="header_cart-list-no-cart-text">
+                                Chưa có sản phẩm
+                            </div>
+
+                            <h4 class="header_cart-heading">Sản phẩm</h4>
+                            <ul class="header_cart-list-item">
+                                <li class="header_cart-item">
+                                    <img src="https://galle.vn/upload_images/images/dong-ho-Junghans-3.png" alt="sản phẩm" class="header_cart-item_img">
+                                    <div class="header_cart-item-info">
+                                        <div class="header_cart-item-head">
+                                            <span class="header_cart-item-name">Đồng hồ #####</span>
+                                            <span class="header_cart-item-quantity">x1</span>
+                                        </div>
+                                        <div class="header_cart-item-body">
+                                            <button class="header_cart-item-btn">Xóa</button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header_user">
+                            <i class="header_user-icon fa-solid fa-user"></i>
+                            <div class="header_user-text hide-on-mobile">Đăng Nhập<br>Đăng ký</div>
+                    </div>
+                </div>
+
+                <nav class="header-navbar hide-on-mobile-tablet">
+                    <ul class="header-navbar_list">
+                        <li class="header-navbar_item">
+                            <a href="#" class="header-navbar_item-link header-navbar_item-link--active">Trang chủ</a>
+                        </li>
+                        <li class="header-navbar_item">
+                            <a href="#" class="header-navbar_item-link">Sản phẩm</a>
+                        </li>
+                        <li class="header-navbar_item">
+                            <a href="#" class="header-navbar_item-link">Phụ kiện</a>
+                        </li>
+                        <li class="header-navbar_item">
+                            <a href="#" class="header-navbar_item-link">Giới thiệu</a>
+                        </li>
+                        <li class="header-navbar_item">
+                            <a href="#" class="header-navbar_item-link">Liên hệ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="special-product">
+                <div class="grid wide">
+                    <div class="row table-mobile-relative">
+                        <div class="col l-7 m-6 c-12">
+                            <div class="special-product_intro">
+                                <h2 class="special-product_intro-title">ĐẶC BIỆT</h2>
+                                <h2 class="special-product_intro-name">Huawei Watch 3 Pro</h2>
+                                <div class="special-product_img-lite show-on-mobile" style="background-image: url(assets/media/image/special_product.png)"></div>  
+                                <p class="special-product_intro-describe">Sở hữu kiểu dáng tròn cổ điển cùng vỏ titan sáng bóng, HUAWEI WATCH 3 Pro mang đến cho bạn một phong thái chuyên nghiệp đến từng giây. Và nhờ màn hình hiển thị AMOLED siêu sống động 1,43 Inch, bạn có thể thưởng thức từng phút giây trôi qua rực rỡ.</p>                                
+                                <button class="scpecial-product_intro-btn">
+                                    <h4>XEM SẢN PHẨM</h4>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col l-5 m-6 c-0">
+                            <div class="special-product_img" style="background-image: url(assets/media/image/special_product.png)"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid wide">
+                <div class="sale">
+                    <div class="group-bar">
+                        <h4 class="group-bar_label">Giảm giá</h4>
+                        <a href="#" class="group-bar_btn">
+                            Xem Tất Cả
+                            <i class="group-bar_btn-icon fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                    <a href="#" class="row no-gutters sale_wrapper">
+                        <div class="col l-2 m-2 c-4">
+                            <div class="sale_item">
+                                <div class="sale_item-img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                <div class="sale_item-price">
+                                    <span class="sale_item-sale-price">1.000</span> ₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-2 c-4">
+                            <div class="sale_item">
+                                <div class="sale_item-img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                <div class="sale_item-price">
+                                    <span class="sale_item-sale-price">1.000</span> ₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-2 c-4">
+                            <div class="sale_item">
+                                <div class="sale_item-img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                <div class="sale_item-price">
+                                    <span class="sale_item-sale-price">1.000</span> ₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-2 c-4">
+                            <div class="sale_item">
+                                <div class="sale_item-img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                <div class="sale_item-price">
+                                    <span class="sale_item-sale-price">1.000</span> ₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-2 c-4">
+                            <div class="sale_item">
+                                <div class="sale_item-img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                <div class="sale_item-price">
+                                    <span class="sale_item-sale-price">1.000</span> ₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-2 c-4">
+                            <div class="sale_item">
+                                <div class="sale_item-img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                <div class="sale_item-price">
+                                    <span class="sale_item-sale-price">1.000</span> ₫
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="category">
+                    <div class="category_bar">
+                        <h4 class="category_bar-label">Phân loại</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col l-3 m-6 c-6">
+                            <div class="category_type">
+                                <a href="" class="category_type-link">Đồng hồ nam</a>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="category_type">
+                                <a href="" class="category_type-link">Đồng hồ nữ</a>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="category_type">
+                                <a href="" class="category_type-link">Cổ điển</a>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="category_type">
+                                <a href="" class="category_type-link">Smart Watch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="collection">
+                    <div class="group-bar">
+                        <h4 class="group-bar_label">Bộ sưu tập</h4>
+                        <a href="#" class="group-bar_btn">
+                            Xem Tất Cả
+                            <i class="group-bar_btn-icon fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="col l-4 m-4 c-6">
+                            <a href="#" class="collection_brand">
+                                <div class="collection_brand-img" style="background-image: url(assets/media/image/collection/collection_casio.jpg);"></div>
+                                <h2 class="collection_brand-name">Casio</h2>
+                            </a>
+                        </div>
+                        <div class="col l-4 m-4 c-6">
+                            <a href="#" class="collection_brand">
+                                <div class="collection_brand-img" style="background-image: url(assets/media/image/collection/collection_citizen.jpg);"></div>
+                                <h2 class="collection_brand-name">Citizen</h2>
+                            </a>
+                        </div>
+                        <div class="col l-4 m-4 c-6">
+                            <a href="#" class="collection_brand">
+                                <div class="collection_brand-img" style="background-image: url(assets/media/image/collection/collection_orient.jpg);"></div>
+                                <h2 class="collection_brand-name">Orient</h2>
+                            </a>
+                        </div>
+                        <div class="col l-4 m-4 c-6">
+                            <a href="#" class="collection_brand">
+                                <div class="collection_brand-img" style="background-image: url(assets/media/image/collection/collection_seiko.jpg);"></div>
+                                <h2 class="collection_brand-name">Seiko</h2>
+                            </a>
+                        </div>
+                        <div class="col l-4 m-4 c-6">
+                            <a href="#" class="collection_brand">
+                                <div class="collection_brand-img" style="background-image: url(assets/media/image/collection/collection_longines.jpg);"></div>
+                                <h2 class="collection_brand-name">Longines</h2>
+                            </a>
+                        </div>
+                        <div class="col l-4 m-4 c-6">
+                            <a href="#" class="collection_brand">
+                                <div class="collection_brand-img" style="background-image: url(assets/media/image/collection/collection_movado.jpg);"></div>
+                                <h2 class="collection_brand-name">Movado</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="most-search">
+
+                </div>
+
+                <div class="tab">
+                    <div class="tab-item active">
+                        <h4 class="tab-item_title">Nổi bật</h4>
+                    </div>
+                    <div class="tab-item">
+                        <h4 class="tab-item_title">Bán chạy</h4>
+                    </div>
+                </div>
+
+                <div class="tab-content">
+                    <div class="tab-content_products active">
+                        <div class="row">
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_1.png)"></div>
+                                    <h4 class="product-item_name">Orient FEU07005WX</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">8</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">4,990,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_1.png)"></div>
+                                    <h4 class="product-item_name">Orient FEU07005WX</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">8</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">4,990,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_1.png)"></div>
+                                    <h4 class="product-item_name">Orient FEU07005WX</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">8</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">4,990,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_1.png)"></div>
+                                    <h4 class="product-item_name">Orient FEU07005WX</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">8</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">4,990,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_1.png)"></div>
+                                    <h4 class="product-item_name">Orient FEU07005WX</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">8</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">4,990,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_1.png)"></div>
+                                    <h4 class="product-item_name">Orient FEU07005WX</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">8</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">4,990,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_1.png)"></div>
+                                    <h4 class="product-item_name">Orient FEU07005WX</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">8</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">4,990,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_1.png)"></div>
+                                    <h4 class="product-item_name">Orient FEU07005WX</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">8</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">4,990,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_1.png)"></div>
+                                    <h4 class="product-item_name">Orient FEU07005WX</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">8</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">4,990,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_1.png)"></div>
+                                    <h4 class="product-item_name">Orient FEU07005WX</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">8</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">4,990,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_1.png)"></div>
+                                    <h4 class="product-item_name">Orient FEU07005WX</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">8</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">4,990,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_1.png)"></div>
+                                    <h4 class="product-item_name">Orient FEU07005WX</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">8</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">4,990,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content_bottom">
+                            <a href="#" class="product-btn_link">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="tab-content_products">
+                        <div class="row">
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                    <h4 class="product-item_name">Junghans</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">1</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">32,000,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                    <h4 class="product-item_name">Junghans</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">1</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">32,000,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                    <h4 class="product-item_name">Junghans</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">1</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">32,000,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                    <h4 class="product-item_name">Junghans</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">1</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">32,000,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                    <h4 class="product-item_name">Junghans</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">1</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">32,000,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                    <h4 class="product-item_name">Junghans</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">1</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">32,000,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                    <h4 class="product-item_name">Junghans</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">1</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">32,000,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                    <h4 class="product-item_name">Junghans</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">1</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">32,000,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                    <h4 class="product-item_name">Junghans</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">1</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">32,000,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                    <h4 class="product-item_name">Junghans</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">1</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">32,000,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                    <h4 class="product-item_name">Junghans</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">1</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">32,000,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product-item">
+                                    <div class="product-item_img" style="background-image: url(assets/media/image/product_2.png)"></div>
+                                    <h4 class="product-item_name">Junghans</h4>
+                                    <div class="product-item_overview">
+                                        <span class="product-item_overview-rating">
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon gold fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="product-item_overview-sold">
+                                            Đã bán <span class="product-item_overview-sold-count">1</span>
+                                        </span>
+                                    </div>
+                                    <div class="product-item_price">32,000,000 ₫</div>
+                                    <a href="product.html" class="product-item_wrapper-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content_bottom">
+                            <a href="#" class="product-btn_link">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3 m-4 c-6">
+                        <h3 class="footer_heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Câu hỏi thường gặp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Hướng dẫn đặt hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Phương thức vận chuyển</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <h3 class="footer_heading">Tìm hiểu chúng tôi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Giới thiệu Klocc</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Chứng nhận</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Sản phẩm</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Tuyển dụng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <h3 class="footer_heading">Theo dõi chúng tôi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    <i class="footer-item_link-icon fa-brands fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="https://youtu.be/xvFZjo5PgG0" target="_blank" class="footer-item_link">
+                                    <i class="footer-item_link-icon fa-brands fa-youtube"></i>
+                                    Youtube
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    <i class="footer-item_link-icon fa-brands fa-twitter"></i>
+                                    Twitter
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    <i class="footer-item_link-icon fa-brands fa-instagram-square"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <h3 class="footer_heading">Chính sách chung</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Chính sách bảo hành</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Chính sách bảo mật</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Chính sách đổi trả</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Điều khoản sử dụng</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                © 2022 Klocc
+            </div>
+        </footer>
+    </div>
+
+    <!-- Active modal: .active -->
+    <div class="modal">
+        <div class="modal_overlay"></div>
+        <div class="modal_body">
+
+            <!-- Login / Register Form: active -->
+            <div class="modal-item auth-form">
+                <button class="auth-form_exit-btn">
+                    <i class="auth-form_exit-btn-icon fa-solid fa-xmark"></i>
+                </button>
+
+                <div class="auth-form_tab">
+                    <h4 class="auth-form_tab-btn active">Đăng nhập</h4>
+                    <h4 class="auth-form_tab-btn">Đăng ký</h4>
+                </div>
+
+                <div class="auth-form_tab-content">
+                    
+                    <!-- Login -->
+                    <div class="auth-form_form active">
+                        <div class="auth-form_group">
+                            <input type="text" class="auth-form_input" placeholder="E-mail">
+                        </div>
+                        <div class="auth-form_group">
+                            <input type="password" class="auth-form_input" placeholder="Mật khẩu">
+                        </div>
+                        <div class="auth-form_action">
+                            <button class="auth-form_btn">ĐĂNG NHẬP</button>
+                        </div>
+                        <div class="auth-form_add">
+                            <a href="#" class="auth-form_link"> 
+                                Quên mật khẩu
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Register -->
+                    <div class="auth-form_form">
+                        <div class="auth-form_group">
+                            <input type="text" class="auth-form_input" placeholder="E-mail">
+                        </div>
+                        <div class="auth-form_group">
+                            <input type="password" class="auth-form_input" placeholder="Mật khẩu">
+                        </div>
+                        <div class="auth-form_group">
+                            <input type="password" class="auth-form_input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                        <div class="auth-form_action">
+                            <button class="auth-form_btn">Đăng ký</button>
+                        </div>
+                        <div class="auth-form_add">
+                            <p class="auth-form_policy-text">
+                                Bằng việc đăng ký, tôi đồng ý với Klocc về
+                                <br><a href="#" class="auth-form_link">Điều khoản dịch vụ</a> và
+                                <a href="#" class="auth-form_link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Auth form other log method -->
+                    <div class="auth-form_fast-log">
+                        <h4 class="fast-log-title">Truy cập nhanh</h4>
+                        <div class="fast-log-btn-list">
+                            <a class="auth-form_btn-with-icon">
+                                <i class="auth-form_btn-icon fa-brands fa-facebook"></i>
+                                Facebook
+                            </a>
+                            <a class="auth-form_btn-with-icon">
+                                <i class="auth-form_btn-icon fa-brands fa-google"></i>
+                                Google
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal_panel">
+            <!-- Mobile Navbar -->
+            <div class="modal-item side-navbar">
+                <button class="side-navbar_exit-btn">
+                    <i class="side-navbar_exit-btn-icon fa-solid fa-xmark"></i>
+                </button>
+
+                <div class="side-navbar_user">
+                    <i class="side-navbar_user-icon fa-solid fa-circle-user"></i>
+                    <div class="side-navbar_user-text">Đăng Nhập / Đăng ký</div>
+                </div>
+
+                <ul class="side-navbar_list">
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link side-navbar_item-link--active">Trang chủ</a>
+                    </li>
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Sản phẩm</a>
+                    </li>
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Phụ kiện</a>
+                    </li>
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Giới thiệu</a>
+                    </li>
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Liên hệ</a>
+                    </li>
+                </ul>
+                <ul class="side-navbar_list">
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Tài khoản của tôi</a>
+                    </li>
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Giỏ hàng</a>
+                    </li>
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Đơn hàng</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay">
+        <div class="search-bar">
+            <div class="search-bar_exit-btn">
+                <i class="search-bar_exit-btn-icon fa-solid fa-angle-left"></i>
+            </div>
+            <input type="text" class="search-bar_input" placeholder="Tìm kiếm">
+            <div class="search-bar_search-btn">
+                <i class="search-bar_search-btn-icon fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/control-scroll.js"></script>
+    <script src="assets/js/user_login_ui.js"></script>
+    <script src="assets/js/mobile_navbar_ui.js"></script>
+    <script src="assets/js/search_overlay_ui.js"></script>
+</body>
+</html>

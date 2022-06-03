@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/product.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <div class="header-with-search">
+                    <div class="header_mobile-navbar show-on-mobile">
+                        <i class="header_mobile-navbar-icon fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="header_logo">
+                        <a href="index.html" class="header_logo-link">
+                            <h1 class="header_logo-text">Klocc</h1>
+                        </a>
+                    </div>
+                    <div class="header_search hide-on-mobile">
+                        <input type="text" class="header_search-input" placeholder="Tìm kiếm">
+                        <div class="header_search-btn">
+                            <i class="header_search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="header_search-lite show-on-mobile">
+                        <i class="header_search-lite-icon fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="header_cart">
+                        <i class="header_cart-icon fa-solid fa-cart-shopping"></i>
+                        <span class="header_cart-notice">0</span>
+
+                        <!-- No cart: header_cart-list--no-cart -->
+                        <div class="header_cart-list header_cart-list--no-cart">
+                            <div class="header_cart-list-no-cart-text">
+                                Chưa có sản phẩm
+                            </div>
+
+                            <h4 class="header_cart-heading">Sản phẩm</h4>
+                            <ul class="header_cart-list-item">
+                                <li class="header_cart-item">
+                                    <img src="https://galle.vn/upload_images/images/dong-ho-Junghans-3.png" alt="sản phẩm" class="header_cart-item_img">
+                                    <div class="header_cart-item-info">
+                                        <div class="header_cart-item-head">
+                                            <span class="header_cart-item-name">Đồng hồ #####</span>
+                                            <span class="header_cart-item-quantity">x1</span>
+                                        </div>
+                                        <div class="header_cart-item-body">
+                                            <button class="header_cart-item-btn">Xóa</button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header_user">
+                            <i class="header_user-icon fa-solid fa-user"></i>
+                            <div class="header_user-text hide-on-mobile">Đăng Nhập<br>Đăng ký</div>
+                    </div>
+                </div>
+
+                <nav class="header-navbar hide-on-mobile-tablet">
+                    <ul class="header-navbar_list">
+                        <li class="header-navbar_item">
+                            <a href="#" class="header-navbar_item-link header-navbar_item-link--active">Trang chủ</a>
+                        </li>
+                        <li class="header-navbar_item">
+                            <a href="#" class="header-navbar_item-link">Sản phẩm</a>
+                        </li>
+                        <li class="header-navbar_item">
+                            <a href="#" class="header-navbar_item-link">Phụ kiện</a>
+                        </li>
+                        <li class="header-navbar_item">
+                            <a href="#" class="header-navbar_item-link">Giới thiệu</a>
+                        </li>
+                        <li class="header-navbar_item">
+                            <a href="#" class="header-navbar_item-link">Liên hệ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="container">
+            <div class="grid wide">
+                <div class="breadcrumb">
+                    <ul class="breadcrumb_list">
+                        <li class="breadcrumb_item">
+                            <a href="index.html" class="breadcrumb_item-link">Klocc</a>
+                        </li>
+                        <li class="breadcrumb_item">
+                            <i class="breadcrumb_item-icon fa-solid fa-angle-right"></i>
+                        </li>
+                        <li class="breadcrumb_item">
+                            <a href="#" class="breadcrumb_item-link">Đồng hồ nam</a>
+                        </li>
+                        <li class="breadcrumb_item">
+                            <i class="breadcrumb_item-icon fa-solid fa-angle-right"></i>
+                        </li>
+                        <li class="breadcrumb_item">
+                            <a href="#" class="breadcrumb_item-link">Orient</a>
+                        </li>
+                        <li class="breadcrumb_item">
+                            <i class="breadcrumb_item-icon fa-solid fa-angle-right"></i>
+                        </li>
+                        <li class="breadcrumb_item">
+                            <a href="product.html" class="breadcrumb_item-link">Orient FEU07005WX</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main-product">
+                    <div class="row">
+                        <div class="col l-5 m-12 c-12">
+                            <div class="product-image">
+                                <div class="product-image_big-img" style="background-image: url(assets/media/image/main-product/main-product-1.png)"></div>
+                                <div class="product-image_small-img">
+                                    <button class="product-image_left-button disable">
+                                        <i class="fa-solid fa-angle-left"></i>
+                                    </button>
+                                    <button class="product-image_right-button disable">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </button>
+                                    <div class="img-slider">
+                                        <div class="img-slider_item">
+                                            <img class="img-slider_item-img" src="assets/media/image/main-product/main-product-1.png" alt="">
+                                            <div class="img-slider_item-border active"></div>
+                                        </div>
+                                        <div class="img-slider_item">
+                                            <img class="img-slider_item-img" src="assets/media/image/main-product/main-product-2.png" alt="">
+                                            <div class="img-slider_item-border"></div>
+                                        </div>
+                                        <div class="img-slider_item">
+                                            <img class="img-slider_item-img" src="assets/media/image/main-product/main-product-3.png" alt="">
+                                            <div class="img-slider_item-border"></div>
+                                        </div>
+                                        <div class="img-slider_item">
+                                            <img class="img-slider_item-img" src="assets/media/image/main-product/main-product-4.png" alt="">
+                                            <div class="img-slider_item-border"></div>
+                                        </div>
+                                        <div class="img-slider_item">
+                                            <img class="img-slider_item-img" src="assets/media/image/main-product/main-product-5.png" alt="">
+                                            <div class="img-slider_item-border"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-7 m-12 c-12">
+                            <div class="product-info">
+                                <h2 class="product-info_title">Orient Lịch Vạn Niên FEU07005WX Automatic</h2>     
+                                <div class="product-info_review">
+                                    <span class="review-rating">
+                                        <i class="star-icon orange fa-solid fa-star"></i>
+                                        <i class="star-icon orange fa-solid fa-star"></i>
+                                        <i class="star-icon orange fa-solid fa-star"></i>
+                                        <i class="star-icon orange fa-solid fa-star"></i>
+                                        <i class="star-icon orange fa-solid fa-star"></i>
+                                    </span>
+                                    <span class="review-rating-count">
+                                        <span class="review-rating-count-num">5</span> Đánh giá
+                                    </span>
+                                </div>
+                                <div class="product-info_price">4.990.000 ₫</div>
+                                <div class="product-info_overview">
+                                    <ul class="overview_list">
+                                        <li class="overview_item">
+                                            <span class="overview_item-title">Thương hiệu</span>
+                                            <span class="overview_item-name">Orient</span>
+                                        </li>
+                                        <li class="overview_item">
+                                            <span class="overview_item-title">Xuất xứ</span>
+                                            <span class="overview_item-name">Nhật Bản</span>
+                                        </li>
+                                        <li class="overview_item">
+                                            <span class="overview_item-title">Phân loại</span>
+                                            <span class="overview_item-name">Đồng hồ Nam</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product-info_status">
+                                    Tình trạng 
+                                    <span class="status_live">
+                                        <i class="status_live-icon fa-solid fa-circle"></i>
+                                        Còn hàng
+                                    </span>
+                                </div>
+                                <div class="product-info_qty">
+                                    Số lượng
+                                    <div class="qty_box">
+                                        <button class="qty_box-pre-btn disable">
+                                            <i class="fa-solid fa-angle-left"></i>
+                                        </button>
+                                        <input type="text" class="qty_box-input" value="1">
+                                        <button class="qty_box-next-btn">
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </button>
+                                    </div>
+                                    <div class="qty_available">
+                                        <span class="qty_available-count">10</span> sản phẩm có sẵn
+                                    </div>
+                                </div>
+                                <div class="product-info_btn">
+                                    <button class="btn-buy">Mua ngay</button>
+                                    <button class="btn-cart-add">Thêm vào giỏ</button>
+                                </div>
+                            </div>
+                            <div class="product-share">
+                                <span class="share_title">Chia sẻ</span>
+                                <ul class="share_list">
+                                    <li class="share_item">
+                                        <i class="share_item-icon fa-brands fa-facebook"></i>
+                                    </li>
+                                    <li class="share_item">
+                                        <i class="share_item-icon fa-brands fa-facebook-messenger"></i>
+                                    </li>
+                                    <li class="share_item">
+                                        <i class="share_item-icon fa-brands fa-twitter"></i>
+                                    </li>
+                                    <li class="share_item">
+                                        <i class="share_item-icon fa-solid fa-link"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-description">
+                    <h4 class="descr_title">Thông tin sản phẩm</h4>
+                    <ul class="descr_list">
+                        <li class="descr_item">
+                            <span class="descr_item-title">Sản phẩm</span>
+                            <span class="descr_item-name">FEU07005WX</span>
+                        </li>
+                        <li class="descr_item">
+                            <span class="descr_item-title">Thương hiệu</span>
+                            <span class="descr_item-name">Orient</span>
+                        </li>
+                        <li class="descr_item">
+                            <span class="descr_item-title">Xuất xứ</span>
+                            <span class="descr_item-name">Nhật Bản</span>
+                        </li>
+                        <li class="descr_item">
+                            <span class="descr_item-title">Dòng máy</span>
+                            <span class="descr_item-name">Cơ</span>
+                        </li>
+                        <li class="descr_item">
+                            <span class="descr_item-title">Phong cách</span>
+                            <span class="descr_item-name">Sang trọng, cổ điển</span>
+                        </li>
+                        <li class="descr_item">
+                            <span class="descr_item-title">Kiểu</span>
+                            <span class="descr_item-name">Tròn</span>
+                        </li>
+                        <li class="descr_item">
+                            <span class="descr_item-title">Kích thước mặt</span>
+                            <span class="descr_item-name">44mm</span>
+                        </li>
+                        <li class="descr_item">
+                            <span class="descr_item-title">Độ dày vỏ</span>
+                            <span class="descr_item-name">12mm</span>
+                        </li>
+                        <li class="descr_item">
+                            <span class="descr_item-title">Vật liệu case</span>
+                            <span class="descr_item-name">Thép không gỉ</span>
+                        </li>
+                        <li class="descr_item">
+                            <span class="descr_item-title">Vật liệu kính</span>
+                            <span class="descr_item-name">Kính khoáng</span>
+                        </li>
+                        <li class="descr_item">
+                            <span class="descr_item-title">Chất liệu dây</span>
+                            <span class="descr_item-name">Dây kim loại</span>
+                        </li>
+                        <li class="descr_item">
+                            <span class="descr_item-title">Màu sắc</span>
+                            <span class="descr_item-name">Bạc</span>
+                        </li>
+                        <li class="descr_item">
+                            <span class="descr_item-title">Thời gian trữ cót</span>
+                            <span class="descr_item-name">40 tiếng</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="product-review">
+                    <h4 class="product-review_title">Đánh giá sản phẩm</h4>
+                    <div class="product-review_total-rate">
+                        <span class="total-rate_rating">
+                            <i class="star-icon orange fa-solid fa-star"></i>
+                            <i class="star-icon orange fa-solid fa-star"></i>
+                            <i class="star-icon orange fa-solid fa-star"></i>
+                            <i class="star-icon orange fa-solid fa-star"></i>
+                            <i class="star-icon orange fa-solid fa-star"></i>
+                        </span>
+                        <span class="total-rate_rating-detail">
+                            <span class="total_rate_rating-num">5</span> trên 5
+                        </span>
+                    </div>
+                    <div class="product-review_reviewer">
+                        <ul class="reviewer_list">
+                            <li class="reviewer_item">
+                                <div class="reviewer_item-left hide-on-mobile">
+                                    <img src="assets/media/image/fake-user.png" alt="" class="reviewer_item-avatar">
+                                </div>
+                                <div class="reviewer_item-right">
+                                    <div class="reviewer_header">
+                                        <img src="assets/media/image/fake-user.png" alt="" class="reviewer_header-avatar show-on-mobile">
+                                        <span class="reviewer_header-name">Nam Hai</span>
+                                    </div>
+                                    <div class="reviewer_rate">
+                                        <span class="reviewer_rating">
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="reviewer_rating-date">12/5/2022</span>
+                                    </div>
+                                    <div class="reviewer_comment">
+                                        Sản phẩm rất tốt, chất lượng hoàn hảo
+                                    </div>
+                                    <div class="reviewer_action">
+                                        <span class="reviewer_action-like">
+                                            <i class="reviewer_action-like-icon fa-solid fa-thumbs-up"></i>
+                                            <span class="reviewer_action-like-count">0</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="reviewer_item">
+                                <div class="reviewer_item-left hide-on-mobile">
+                                    <img src="assets/media/image/fake-user.png" alt="" class="reviewer_item-avatar">
+                                </div>
+                                <div class="reviewer_item-right">
+                                    <div class="reviewer_header">
+                                        <img src="assets/media/image/fake-user.png" alt="" class="reviewer_header-avatar show-on-mobile">
+                                        <span class="reviewer_header-name">Nam Hai</span>
+                                    </div>
+                                    <div class="reviewer_rate">
+                                        <span class="reviewer_rating">
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="reviewer_rating-date">12/5/2022</span>
+                                    </div>
+                                    <div class="reviewer_comment">
+                                        Mua tặng bố mình nhân dịp sinh nhật, ông ấy là một người rất thích đồng hồ và ông rất thích chiếc đồng hồ này. Cảm ơn shop
+                                    </div>
+                                    <div class="reviewer_action">
+                                        <span class="reviewer_action-like">
+                                            <i class="reviewer_action-like-icon fa-solid fa-thumbs-up"></i>
+                                            <span class="reviewer_action-like-count">0</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="reviewer_item">
+                                <div class="reviewer_item-left hide-on-mobile">
+                                    <img src="assets/media/image/fake-user.png" alt="" class="reviewer_item-avatar">
+                                </div>
+                                <div class="reviewer_item-right">
+                                    <div class="reviewer_header">
+                                        <img src="assets/media/image/fake-user.png" alt="" class="reviewer_header-avatar show-on-mobile">
+                                        <span class="reviewer_header-name">Nam Hai</span>
+                                    </div>
+                                    <div class="reviewer_rate">
+                                        <span class="reviewer_rating">
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="reviewer_rating-date">12/5/2022</span>
+                                    </div>
+                                    <div class="reviewer_comment">
+                                        Rất đáng tiền!
+                                    </div>
+                                    <div class="reviewer_action">
+                                        <span class="reviewer_action-like">
+                                            <i class="reviewer_action-like-icon fa-solid fa-thumbs-up"></i>
+                                            <span class="reviewer_action-like-count">0</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="reviewer_item">
+                                <div class="reviewer_item-left hide-on-mobile">
+                                    <img src="assets/media/image/fake-user.png" alt="" class="reviewer_item-avatar">
+                                </div>
+                                <div class="reviewer_item-right">
+                                    <div class="reviewer_header">
+                                        <img src="assets/media/image/fake-user.png" alt="" class="reviewer_header-avatar show-on-mobile">
+                                        <span class="reviewer_header-name">Nam Hai</span>
+                                    </div>
+                                    <div class="reviewer_rate">
+                                        <span class="reviewer_rating">
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="reviewer_rating-date">12/5/2022</span>
+                                    </div>
+                                    <div class="reviewer_comment">
+                                        Sản phẩm rất tốt, tôi đã khóc.
+                                    </div>
+                                    <div class="reviewer_action">
+                                        <span class="reviewer_action-like">
+                                            <i class="reviewer_action-like-icon fa-solid fa-thumbs-up"></i>
+                                            <span class="reviewer_action-like-count">0</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="reviewer_item">
+                                <div class="reviewer_item-left hide-on-mobile">
+                                    <img src="assets/media/image/fake-user.png" alt="" class="reviewer_item-avatar">
+                                </div>
+                                <div class="reviewer_item-right">
+                                    <div class="reviewer_header">
+                                        <img src="assets/media/image/fake-user.png" alt="" class="reviewer_header-avatar show-on-mobile">
+                                        <span class="reviewer_header-name">Nam Hai</span>
+                                    </div>
+                                    <div class="reviewer_rate">
+                                        <span class="reviewer_rating">
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon orange fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="reviewer_rating-date">12/5/2022</span>
+                                    </div>
+                                    <div class="reviewer_comment">
+                                        Chất lượng, giao hàng nhanh shop phục vụ rất nhiệt tình. Xứng đáng 5 sao
+                                    </div>
+                                    <div class="reviewer_action">
+                                        <span class="reviewer_action-like">
+                                            <i class="reviewer_action-like-icon fa-solid fa-thumbs-up"></i>
+                                            <span class="reviewer_action-like-count">0</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reviewer_page">
+                        <button class="reviewer_page-pre-btn disable">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                        <ul class="reviewer_page-list">
+                            <li class="reviwer_page-item">1</li>
+                        </ul>
+                        <button class="reviewer_page-next-btn disable">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3 m-4 c-6">
+                        <h3 class="footer_heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Câu hỏi thường gặp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Hướng dẫn đặt hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Phương thức vận chuyển</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <h3 class="footer_heading">Tìm hiểu chúng tôi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Giới thiệu Klocc</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Chứng nhận</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Sản phẩm</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Tuyển dụng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <h3 class="footer_heading">Theo dõi chúng tôi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    <i class="footer-item_link-icon fa-brands fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="https://youtu.be/xvFZjo5PgG0" target="_blank" class="footer-item_link">
+                                    <i class="footer-item_link-icon fa-brands fa-youtube"></i>
+                                    Youtube
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    <i class="footer-item_link-icon fa-brands fa-twitter"></i>
+                                    Twitter
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    <i class="footer-item_link-icon fa-brands fa-instagram-square"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <h3 class="footer_heading">Chính sách chung</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Chính sách bảo hành</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Chính sách bảo mật</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Chính sách đổi trả</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Điều khoản sử dụng</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                © 2022 Klocc
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal">
+        <div class="modal_overlay"></div>
+        <div class="modal_body">
+
+            <!-- Login / Register Form: active -->
+            <div class="modal-item auth-form">
+                <button class="auth-form_exit-btn">
+                    <i class="auth-form_exit-btn-icon fa-solid fa-xmark"></i>
+                </button>
+
+                <div class="auth-form_tab">
+                    <h4 class="auth-form_tab-btn active">Đăng nhập</h4>
+                    <h4 class="auth-form_tab-btn">Đăng ký</h4>
+                </div>
+
+                <div class="auth-form_tab-content">
+                    
+                    <!-- Login -->
+                    <div class="auth-form_form active">
+                        <div class="auth-form_group">
+                            <input type="text" class="auth-form_input" placeholder="E-mail">
+                        </div>
+                        <div class="auth-form_group">
+                            <input type="password" class="auth-form_input" placeholder="Mật khẩu">
+                        </div>
+                        <div class="auth-form_action">
+                            <button class="auth-form_btn">ĐĂNG NHẬP</button>
+                        </div>
+                        <div class="auth-form_add">
+                            <a href="#" class="auth-form_link"> 
+                                Quên mật khẩu
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Register -->
+                    <div class="auth-form_form">
+                        <div class="auth-form_group">
+                            <input type="text" class="auth-form_input" placeholder="E-mail">
+                        </div>
+                        <div class="auth-form_group">
+                            <input type="password" class="auth-form_input" placeholder="Mật khẩu">
+                        </div>
+                        <div class="auth-form_group">
+                            <input type="password" class="auth-form_input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                        <div class="auth-form_action">
+                            <button class="auth-form_btn">Đăng ký</button>
+                        </div>
+                        <div class="auth-form_add">
+                            <p class="auth-form_policy-text">
+                                Bằng việc đăng ký, tôi đồng ý với Klocc về
+                                <br><a href="#" class="auth-form_link">Điều khoản dịch vụ</a> và
+                                <a href="#" class="auth-form_link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Auth form other log method -->
+                    <div class="auth-form_fast-log">
+                        <h4 class="fast-log-title">Truy cập nhanh</h4>
+                        <div class="fast-log-btn-list">
+                            <a class="auth-form_btn-with-icon">
+                                <i class="auth-form_btn-icon fa-brands fa-facebook"></i>
+                                Facebook
+                            </a>
+                            <a class="auth-form_btn-with-icon">
+                                <i class="auth-form_btn-icon fa-brands fa-google"></i>
+                                Google
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal_panel">
+            <!-- Mobile Navbar -->
+            <div class="modal-item side-navbar">
+                <button class="side-navbar_exit-btn">
+                    <i class="side-navbar_exit-btn-icon fa-solid fa-xmark"></i>
+                </button>
+
+                <div class="side-navbar_user">
+                    <i class="side-navbar_user-icon fa-solid fa-circle-user"></i>
+                    <div class="side-navbar_user-text">Đăng Nhập / Đăng ký</div>
+                </div>
+
+                <ul class="side-navbar_list">
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Trang chủ</a>
+                    </li>
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Sản phẩm</a>
+                    </li>
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Phụ kiện</a>
+                    </li>
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Giới thiệu</a>
+                    </li>
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Liên hệ</a>
+                    </li>
+                </ul>
+                <ul class="side-navbar_list">
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Tài khoản của tôi</a>
+                    </li>
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Giỏ hàng</a>
+                    </li>
+                    <li class="side-navbar_item">
+                        <a href="#" class="side-navbar_item-link">Đơn hàng</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay">
+        <div class="search-bar">
+            <div class="search-bar_exit-btn">
+                <i class="search-bar_exit-btn-icon fa-solid fa-angle-left"></i>
+            </div>
+            <input type="text" class="search-bar_input" placeholder="Tìm kiếm">
+            <div class="search-bar_search-btn">
+                <i class="search-bar_search-btn-icon fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/control-scroll.js"></script>
+    <script src="assets/js/user_login_ui.js"></script>
+    <script src="assets/js/mobile_navbar_ui.js"></script>
+    <script src="assets/js/search_overlay_ui.js"></script>
+    <script src="assets/js/product-image-slider.js"></script>
+    <script src="assets/js/product.js"></script>
+</body>
+</html>

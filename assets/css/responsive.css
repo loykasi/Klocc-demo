@@ -1,0 +1,124 @@
+/* PC */
+@media (min-width: 1024px) {
+    .special-product_intro {
+        top: 40%;
+        transform: translateY(-50%);
+    }
+    .header-icon-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* Mobile, Table */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    :root {
+        --header-height: 85px;
+        --navbar-height: 0px;
+    }
+    html {
+        font-size: 90%;
+    }
+    /* Special Product */
+    .special-product_img {
+        margin-top: 32px;
+    }
+    /* Cart */
+    .header_cart-list {
+        top: var(--header-height);
+        width: 644px;
+        right: -100px;
+        top: calc(100% + 30px);
+        padding: 16px;
+    }
+    .header_cart-list::after {
+        width: 100%;
+        height: 30px;
+        border: none;
+        right: 0;
+        z-index: 2;
+    }
+    /* Header user */
+    .header_user {
+        width: 80px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    :root {
+        --header-height: 55px;
+        --navbar-height: 0px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .show-on-mobile {
+        display: block;
+    }
+    /* Font & overlay scroll bar */
+    html {
+        font-size: 80%;
+        overflow-y: scroll;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    /* Header */
+    .header_logo-link {
+        font-size: 1.1rem;
+    }
+    .header-with-search {
+        padding: 0 16px;
+    }
+    .header_user {
+        width: auto;
+    }
+    /* Special Product */
+    .special-product_intro {
+        padding: 0 16px;
+        text-align: center;
+    }
+    /* Cart */
+    .header_cart {
+        margin: 0 12px;
+    }
+    .header_cart:hover .header_cart-list {
+        display: none;
+    }
+    /* reviewer container */
+    .product-review_reviewer {
+        padding: 8px;
+    }
+    /* reviewer name */
+    .reviewer_header-name {
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+    /* product status & quantity */
+    .product-info_btn {
+        margin: 32px 0;
+    }
+    .status_live,
+    .qty_box {
+        position: absolute;
+        left: 110px;
+        margin: 0;
+    }
+    .qty_available {
+        position: absolute;
+        left: 110px;
+        top: 32px;
+    }
+}
