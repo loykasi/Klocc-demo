@@ -94,54 +94,6 @@
     max-width: 100%;
 }
 
-.c-o-1 {
-    max-width: 8.33333%;
-}
-
-.c-o-2 {
-    max-width: 16.66667%;
-}
-
-.c-o-3 {
-    max-width: 25%;
-}
-
-.c-o-4 {
-    max-width: 33.33333%;
-}
-
-.c-o-5 {
-    max-width: 41.66667%;
-}
-
-.c-o-6 {
-    max-width: 50%;
-}
-
-.c-o-7 {
-    max-width: 58.33333%;
-}
-
-.c-o-8 {
-    max-width: 66.66667%;
-}
-
-.c-o-9 {
-    max-width: 75%;
-}
-
-.c-o-10 {
-    max-width: 83.33333%;
-}
-
-.c-o-11 {
-    max-width: 91.66667%;
-}
-
-.c-o-12 {
-    max-width: 100%;
-}
-
 /* > Table */
 @media (min-width: 740px) {
     .row {
@@ -233,53 +185,6 @@
         max-width: 100%;
     }
 
-    .m-o-1 {
-        max-width: 8.33333%;
-    }
-    
-    .m-o-2 {
-        max-width: 16.66667%;
-    }
-    
-    .m-o-3 {
-        max-width: 25%;
-    }
-    
-    .m-o-4 {
-        max-width: 33.33333%;
-    }
-    
-    .m-o-5 {
-        max-width: 41.66667%;
-    }
-    
-    .m-o-6 {
-        max-width: 50%;
-    }
-    
-    .m-o-7 {
-        max-width: 58.33333%;
-    }
-    
-    .m-o-8 {
-        max-width: 66.66667%;
-    }
-    
-    .m-o-9 {
-        max-width: 75%;
-    }
-    
-    .m-o-10 {
-        max-width: 83.33333%;
-    }
-    
-    .m-o-11 {
-        max-width: 91.66667%;
-    }
-    
-    .m-o-12 {
-        max-width: 100%;
-    }
 }
 
 /* PC medium resolution > */
@@ -373,53 +278,6 @@
         max-width: 100%;
     }
 
-    .l-o-1 {
-        max-width: 8.33333%;
-    }
-    
-    .l-o-2 {
-        max-width: 16.66667%;
-    }
-    
-    .l-o-3 {
-        max-width: 25%;
-    }
-    
-    .l-o-4 {
-        max-width: 33.33333%;
-    }
-    
-    .l-o-5 {
-        max-width: 41.66667%;
-    }
-    
-    .l-o-6 {
-        max-width: 50%;
-    }
-    
-    .l-o-7 {
-        max-width: 58.33333%;
-    }
-    
-    .l-o-8 {
-        max-width: 66.66667%;
-    }
-    
-    .l-o-9 {
-        max-width: 75%;
-    }
-    
-    .l-o-10 {
-        max-width: 83.33333%;
-    }
-    
-    .l-o-11 {
-        max-width: 91.66667%;
-    }
-    
-    .l-o-12 {
-        max-width: 100%;
-    }
 }
 
 /* Table - PC low resolution */
@@ -531,54 +389,6 @@
     
     .wide .l-12 {
         flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-    .wide .l-o-1 {
-        max-width: 8.33333%;
-    }
-    
-    .wide .l-o-2 {
-        max-width: 16.66667%;
-    }
-    
-    .wide .l-o-3 {
-        max-width: 25%;
-    }
-    
-    .wide .l-o-4 {
-        max-width: 33.33333%;
-    }
-    
-    .wide .l-o-5 {
-        max-width: 41.66667%;
-    }
-    
-    .wide .l-o-6 {
-        max-width: 50%;
-    }
-    
-    .wide .l-o-7 {
-        max-width: 58.33333%;
-    }
-    
-    .wide .l-o-8 {
-        max-width: 66.66667%;
-    }
-    
-    .wide .l-o-9 {
-        max-width: 75%;
-    }
-    
-    .wide .l-o-10 {
-        max-width: 83.33333%;
-    }
-    
-    .wide .l-o-11 {
-        max-width: 91.66667%;
-    }
-    
-    .wide .l-o-12 {
         max-width: 100%;
     }
 }

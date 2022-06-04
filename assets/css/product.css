@@ -446,10 +446,3 @@
     border: 2px solid #ccc;
     cursor: default;
 }
-
-
-/* Modal */
-.image_show-img {
-    display: block;
-    width: 600px;
-}
